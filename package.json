@@ -1,0 +1,27 @@
+{
+  "name": "anonymous-housing-assessment",
+  "version": "1.0.0",
+  "description": "Privacy-preserving housing quality assessment system using FHEVM",
+  "main": "public/index.html",
+  "scripts": {
+    "start": "npx http-server public -p 3000 -c-1 --cors",
+    "build": "echo 'No build step required - static files only'",
+    "dev": "npx http-server public -p 3000 -c-1 --cors"
+  },
+  "keywords": [
+    "blockchain",
+    "fhevm",
+    "privacy",
+    "housing",
+    "assessment",
+    "zama"
+  ],
+  "author": "Anonymous",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
